@@ -1,0 +1,37 @@
+.Titulo-Principal{
+    padding-bottom: 50px;
+    background:yellow;
+}
+.Titulo{
+    background:green;
+    opacity: 0.75;
+}
+#starwars{
+    display:inline-flex;
+    flex-direction:column-reverse;
+}
+.Nombre-Titulo{
+    display:flex;
+    justify-content: center;
+}
+#Sub-Titulo{
+    display:flex;
+    justify-content: center;
+}
+#Modos-de-Juego{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-content: space-evenly;
+    background:blue;
+    color: cyan;
+    align-items: center;
+    height:300px;
+    margin:10px;
+}
+#Boton-Seleccionar{
+    display:flex;
+    justify-content:center;
+    background-color: green;
+    margin:5px 5px 5px 600px;
+}
