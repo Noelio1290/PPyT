@@ -1,37 +1,39 @@
-.Titulo-Principal{
+.Contenedor-Total{
     padding-bottom: 50px;
-    background:yellow;
-}
-.Titulo{
-    background:green;
-    opacity: 0.75;
-}
-#starwars{
-    display:inline-flex;
-    flex-direction:column-reverse;
+    background:whitesmoke;
 }
 .Nombre-Titulo{
     display:flex;
     justify-content: center;
+    background-color: rgb(255, 128, 82, 0.3) ;
 }
-#Sub-Titulo{
+.Titulo{
+   opacity: 1;
+}
+.Sub-Titulo{
     display:flex;
     justify-content: center;
+    background-color:rgb(255, 128, 82, 0.3)  ;
 }
-#Modos-de-Juego{
+.Modos-de-Juego{
     display:flex;
     flex-direction:row;
-    justify-content: center;
     justify-content: space-evenly;
-    background:blue;
+    background:rgb(107, 107, 107);
     color: cyan;
     align-items: center;
     height:300px;
     margin:10px;
 }
-#Boton-Seleccionar{
+.Boton-Seleccionar{
     display:flex;
     justify-content:center;
     background-color: green;
     margin:5px 5px 5px 600px;
+}
+.active{
+    display: flex;
+}
+.inactive{
+    display: none;
 }
