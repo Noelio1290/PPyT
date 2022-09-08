@@ -19,7 +19,7 @@
                     <p class="vs">Vs. COM</p>
                     <p class="2p">2 Players</p>
                 </div>
-                <div class="Boton-Seleccionar">
+                <div onclick="pasarPagina2()" class="Boton-Seleccionar">
                     <p class="boton">Seleccionar</p>
                 </div>
             </div>
@@ -29,14 +29,24 @@
                         <h2 class="Titulo">Piedra Papel y Tijeras</h2>
                     </div>
                 </div>
-                <div class="Selecciona">
+                <div class="seleccionaP1">
                     <p>Elije tu opcion</p>
+                    <div class="opcionesP1">
+                        <button class="seleccion">Piedra</button>
+                        <button class="seleccion" id="seleccionU">Papel</button>
+                        <button class="seleccion">Tijeras</button>
+                    </div>
                 </div>
-                <div class="Botones">
-                    <button onclick="aprendiendoConClicks()" class="seleccion">Piedra</button>
-                    <button class="seleccion" id="seleccionU">Papel</button>
-                    <button class="seleccion">Tijeras</button>
+                <div class="seleccionaP2">
+                    <p>Opcion COM</p>
+                    <div class="opcionesP2">
+                        <button class="seleccion">Piedra</button>
+                        <button class="seleccion">Papel</button>
+                        <button class="seleccion">Tijeras</button>
+                    </div>
                 </div>
+                <button onclick="pasarPagina3()" class="Eleccion">Siguiente</button>
+                
             </div>    
             <div class="Resultado">
                 <div class="Pantalla-de-juego">
@@ -44,6 +54,7 @@
                         <h2 class="Titulo">Piedra Papel y Tijeras</h2>
                     </div>
                     <p>Aqui ira el resultado</p>
+                    <button class="final" type="reset" onclick="paginaInicial()">Reset</button>
                 </div>
             </div>
 
